@@ -7,6 +7,6 @@ import org.example.Config;
 public class Main {
     public static void main(String[] args) throws ConfigurationException {
         System.out.printf(Config.getProperty("appsettings.properties", "orders.folder"));
-        System.out.printf("hello from there!");
+        System.out.printf("bye from there!");
     }
 }
