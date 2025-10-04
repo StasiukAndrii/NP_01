@@ -7,12 +7,12 @@
   },
   "products": [
     {
-      "productCode": "P01",
+      "productCode": 1,
       "quantity": 2,
       "unit": "kg"
     },
     {
-      "productCode": "P02",
+      "productCode": 2,
       "quantity": 5,
       "unit": "kg"
     }
