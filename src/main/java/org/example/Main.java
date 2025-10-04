@@ -28,9 +28,12 @@ public class Main {
                     .forEach(path -> {
                         try {
                            Order order =  Deserializer.deserialize(path, Order.class);
-                           String uniqueID = UUID.randomUUID().toString();
-                           order.orderID = uniqueID;
-                           System.out.printf(order.orderID + '\n');
+                           order.orderID = order.orderDetails.name+"__"+order.orderDetails.surname+"__"+order.orderDetails.email+"__"+order.orderDetails.phone+"__";
+                           for(int i = 0;  i < order.products.size(); i++){
+                               Product product = order.products.get(i);
+                               order.orderID += product.productCode+"__"+product.quantity+"__"+product.unit+"__";
+                           }
+                           System.out.printf(order.orderID+'\n');
                         } catch (IOException e) {
                             throw new RuntimeException(e);
                         }

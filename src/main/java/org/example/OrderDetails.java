@@ -13,7 +13,7 @@ public class OrderDetails {
             @JsonProperty("email") String email,
             @JsonProperty("phone") String phone)
     {
-        this.email = email;
+        this.name = name;
         this.surname = surname;
         this.email = email;
         this.phone = phone;

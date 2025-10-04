@@ -7,12 +7,12 @@
   },
   "products": [
     {
-      "productCode": 1,
+      "productCode": "apple",
       "quantity": 2,
       "unit": "kg"
     },
     {
-      "productCode": 2,
+      "productCode": "bear",
       "quantity": 5,
       "unit": "kg"
     }

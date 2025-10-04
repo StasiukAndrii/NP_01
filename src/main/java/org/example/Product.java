@@ -3,11 +3,11 @@ package org.example;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Product {
-    int productCode;
+    String productCode;
     int quantity;
     String unit;
     public Product (
-            @JsonProperty("productCode") int productCode,
+            @JsonProperty("productCode") String productCode,
             @JsonProperty("quantity") int quantity,
             @JsonProperty("unit") String unit
     )

@@ -7,13 +7,13 @@
   },
   "products": [
     {
-      "productCode": 3,
+      "productCode": "carrot",
       "quantity": 1,
       "unit": "kg"
     },
     {
-      "productCode": 1,
-      "quantity": 5,
+      "productCode": "apple",
+      "quantity": 4,
       "unit": "kg"
     }
   ]
